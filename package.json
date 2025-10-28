@@ -1,0 +1,7 @@
+{
+  "name": "lesson-2-tests",
+  "private": true,
+  "scripts": {
+    "test": "node sum.test.js"
+  }
+}
