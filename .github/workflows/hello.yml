@@ -1,0 +1,10 @@
+name: Hello Karen
+
+on: [push]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello Karen! Your GitHub Action robot is working 🎉"
